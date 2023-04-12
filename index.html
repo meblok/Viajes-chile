@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="assets/css/style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&family=Schibsted+Grotesk:wght@400;800&display=swap" rel="stylesheet">
+    <title>Viajes Chile</title>
+</head>
+<body>
+<!-- Navbar -->
+    <nav id="menu" class="navbar navbar-expand-lg navbar-dark fixed-top">
+        <div class="container">            
+            <a href="#" class="navbar-brand"><img src="assets/img/viajes.svg" alt="logo" height="50"> Viajes Chile </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse " id="navbarNavAltMarkup">
+            <div class="navbar-nav ms-auto">
+              <a class="nav-link active" aria-current="page" href="#">Inicio</a>
+              <a class="nav-link active" href="#qsom">Quienes Somos</a>
+              <a class="nav-link active" href="#dest">Destacados</a>
+              <a class="nav-link active" href="#cont">Contacto</a>
+            </div>
+          </div>
+        </div>
+      </nav>
+
+
+<!-- carousel -->
+<div id="carouselExampleFade" class="carousel slide carousel-fade" data-bs-ride="carousel">
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img src="assets/img/carousel1.jpg" class="d-block w-100" alt="foto de llama">
+      </div>
+      <div class="carousel-item">
+        <img src="assets/img/carousel2.jpg" class="d-block w-100" alt="foto moai">
+      </div>
+      <div class="carousel-item">
+        <img src="assets/img/carousel3.jpg" class="d-block w-100" alt="foto de pinguino">
+      </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div>
+
+<div class="container d-none d-sm-block">
+  <div class="row text-center mt-5" id="qsom" ><p>¿Quienes somos?</p></div>
+    <div class="row mt-5">
+        <div class="col-4"><div class=" bg-info text-center"><i class="fa-solid fa-plane fa-2x"></i></div><p class="muted">Placeholder text to demonstrate some <a href="#" data-bs-toggle="tooltip" data-bs-title="Default tooltip">inline links</a> with tooltips. This is now just filler, no killer. Content placed here just to mimic the presence of <a href="#" data-bs-toggle="tooltip" data-bs-title="Another tooltip">real text</a>. And all that just to give you an idea of how tooltips would look when used in real-world situations. So hopefully you've now seen how <a href="#" data-bs-toggle="tooltip" data-bs-title="Another one here too">these tooltips on links</a> can work in practice, once you use them on <a href="#" data-bs-toggle="tooltip" data-bs-title="The last tip!">your own</a> site or project.</p></div>
+
+        <div class="col-4"><p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit corporis et alias recusandae omnis laborum iure      odit, vel fuga aliquam libero perferendis a error voluptate aut? Odio quae harum modi.
+        Perspiciatis dolorum architecto consequatur ea velit molestiae quae quisquam quas aut quis distinctio, placeat sapiente inventore, illum, at ad. Libero architecto et in obcaecati assumenda nemo adipisci voluptates tempora nesciunt.
+        Veritatis quo recusandae minus quae laborum, quisquam similique et accusamus. Quo vitae tenetur dicta omnis natus sapiente explicabo laborum beatae quisquam velit mollitia error, voluptatum nobis vel assumenda expedita nam.</p><div class="bg-info text-center"><i class="fa-solid fa-mountain fa-2x"></i></div></div>
+
+        <div class="col-4"><div class=" bg-info text-center"><i class="fa-solid fa-route fa-2x"></i></div><p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit corporis et alias recusandae omnis laborum iure odit, vel fuga aliquam libero perferendis a error voluptate aut? Odio quae harum modi.
+        Perspiciatis dolorum architecto consequatur ea velit molestiae quae quisquam quas aut quis distinctio, placeat sapiente inventore, illum, at ad. Libero architecto et in obcaecati assumenda nemo adipisci voluptates tempora nesciunt.
+        Veritatis quo recusandae minus quae laborum, quisquam similique et accusamus. Quo vitae tenetur dicta omnis natus sapiente explicabo laborum beatae quisquam velit mollitia error, voluptatum nobis vel assumenda expedita nam.</p></div>
+    </div>
+</div>
+
+<div class="container mt-5" >
+    <div class="row text-center" id="dest"><p>Destacados</p></div>
+    <div><div class="row mt-5"><hr></div>
+    <div class=" container row d-evenly">
+            <div class="card col-2  p-0 mx-auto mb-3" style="width: 18rem;">
+                <img src="assets/img/card1.jpg" class="card-img-top" alt="...">
+                <div class="card-body bg-info">
+                    <p class="card-text text-white">Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam voluptatum aut ab. Quis veniam, laborum neque cumque nobis explicabo iste quam laboriosam excepturi, repudiandae quas! Nobis perspiciatis neque temporibus fugiat.</p>
+                </div>
+            </div>
+            <div class="card col-2 p-0 mx-auto mb-3 " style="width: 18rem;">
+                <img src="assets/img/card2.jpg" class="card-img-top" alt="...">
+                <div class="card-body bg-info">
+                    <p class="card-text text-white">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Tenetur natus cum veniam eum ullam qui. Aspernatur tenetur nisi reprehenderit rem illo fugiat nobis dolores porro, fuga adipisci cum minima expedita?</p>
+                </div>
+            </div>
+            <div class="card col-2 p-0 mx-auto mb-3" style="width: 18rem;">
+                <img src="assets/img/card3.jpg" class="card-img-top" alt="...">
+                <div class="card-body bg-info">
+                    <p class="card-text text-white">Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium nesciunt veritatis beatae incidunt impedit aspernatur. Error corrupti earum quam necessitatibus explicabo dolorum, quis, alias veritatis minus dolor est, illo voluptas?</p>
+                </div>
+            </div>
+            <div class="card col-2 p-0 mx-auto mb-3" style="width: 18rem;">
+                <img src="assets/img/card4.jpg" class="card-img-top" alt="...">
+                <div class="card-body bg-info">
+                    <p class="card-text text-white">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum dolorem, suscipit velit harum sapiente nostrum ipsum impedit asperiores in perferendis minus! Adipisci quod aut aspernatur tenetur quo ad commodi quidem?</p>
+                </div>
+            </div>
+    </div>    
+</div>
+
+<div>
+    <div class="container row text-center mt-5"id="cont"><p>Contacto</p></div>
+    <hr>
+
+
+    <form class="container">
+        <div class="mb-3">
+          <label for="exampleInputEmail1" class="form-label">Nombre</label>
+          <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+        </div>
+        <div class="mb-3">
+          <label for="exampleInputPassword1" class="form-label">Asunto</label>
+          <input type="password" class="form-control" id="exampleInputPassword1">
+        </div>
+        <div class="mb-3">
+            <label for="exampleFormControlTextarea1" class="form-label">Mensaje</label>
+            <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+          </div>
+        
+        <button type="submit" class="btn btn-info text-white">Enviar</button>
+      </form><br><br>
+
+<footer class="container-fluid bg-info">
+<div class="row">
+    <div class="col-6 text-center mt-3"><h5>Viajes Chile</h5></div>
+
+    <!-- iconos de redes -->
+    <div class="col-6 text-center mt-3">
+        
+        <a class="text-decoration-none text-white" href="https://www.linkedin.com" target="_blank"><i class="fa-brands fa-linkedin fa-2x"></i></a>
+        <a class="text-decoration-none text-white" href="https://www.github.com" target="_blank"><i class="fa-brands fa-github-square fa-2x"></i></a>
+        <a class="text-decoration-none text-white" href="https://www.twitter.com" target="_blank"><i class="fa-brands fa-twitter-square fa-2x"></i></a>
+        <a class="text-decoration-none text-white" href="https://www.facebook.com" target="_blank"><i class="fa-brands fa-facebook-square fa-2x"></i></a>
+    </div>
+
+</div>
+</footer>
+</div> 
+
+    <!-- font awsome -->
+    <script src="https://kit.fontawesome.com/6b8f0c7049.js" crossorigin="anonymous"></script>
+
+    <!-- jquery mini -->
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.6.4/dist/jquery.min.js"></script>
+   
+    <!--  bootstrap v 5.3 -->
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.7/dist/umd/popper.min.js" integrity="sha384-zYPOMqeu1DAVkHiLqWBUTcbYfZ8osu1Nd6Z89ify25QV9guujx43ITvfi12/QExE" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.min.js" integrity="sha384-Y4oOpwW3duJdCWv5ly8SCFYWqFDsfob/3GkgExXKV4idmbt98QcxXYs9UoXAB7BZ" crossorigin="anonymous"></script>  
+   
+    <!--  mis archivos jquery y script -->
+    <script src="assets/js/script.js"></script>
+    <script src="assets/js/jquery.js"></script>
+</body>
+</html>
+
+
+<!-- jquery 3.6.4 tomado de https://cdnjs.com/libraries/jquery
+bootstrap 5.3 tomado de https://getbootstrap.com/
+font-family: 'Schibsted Grotesk', sans-serif; de https://fonts.google.com/ -->
